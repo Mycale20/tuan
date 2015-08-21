@@ -1,0 +1,239 @@
+body{
+    font-family:"microsoft yahei";
+}
+h1{
+    padding: 12px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.main-wrapper{
+    background: #444 url(../images/banner.jpg);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background: rgba(0,0,0,0.3);
+}
+nav{
+    height: 47px;
+}
+ul{
+    margin:0;
+}
+#banner{
+    height: 700px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+nav ul li,nav .logo{
+    display: inline-block;
+    line-height: 47px;
+    margin-right: 20px;
+}
+nav ul li a{
+    line-height: 47px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color:#fff;
+}
+#banner .inner{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:160px;
+}
+#banner .inner h1{
+    margin: 0;
+}
+button{
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+#banner button{
+    padding: 14px 60px;
+    background: #079BAE;
+}
+#banner .inner .more{
+    margin-top: 250px;
+}
+.sub-heading{
+    line-height: 30px;
+    margin: 30px;
+    color: #fff;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    float: left;
+    padding: 0 10px;
+}
+.logo a{
+    color:#fff;
+    text-decoration: none;
+}
+/*内容部分样式*/
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+.green-section{
+    text-align: center;
+    background-color: #079BAE;
+    color: #fff;
+    padding: 100px 0;
+}
+.green-section .hr{
+    background-color:#7D87Ff;
+    width: 60%;}
+.sub-heading{
+    font-size: 18px;
+    margin:20px 0;
+}
+.green-section .icon-group .icon{
+    display: inline-block;
+    width:80px;
+    height: 80px;
+    border:1px dashed #0D6F7c;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 20px;
+}
+.hr{
+    width:100%;
+    height: 2px;
+    margin: 20px auto;
+}
+.gray-section{
+    background: #252f34;
+    color: #fff;
+}
+.gray-section .img-section{
+    width:45%;
+}
+.img-section img{
+    width:100%;
+}
+.gray-section .text-section{
+    width:55%;
+}
+.text-section{
+    position: relative;
+    top:70px;
+    left:50px;
+}
+.text-section h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.text-section p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.text-section .sub-heading{
+    font-size: 21px;
+}
+.text-section >*{
+    max-width: 90%;
+}
+.article-preview > div{
+    float: left;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.article-preview:nth-child(odd){
+    background-color: rgba(255,255,255,0.05);
+}
+.article-preview{
+    font-size: 0;
+}
+/*紫色样式*/
+.purple-section{
+    background: #262149;
+    color: #fff;
+    margin: 0 auto;
+    padding: 80px;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .hr{
+    background: #373259;
+    width: 60%;
+}
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card:first-child{
+    background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+    background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+    background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+    background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+    background: rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+    background: rgba(0,0,0,0.24);
+}
+/*底部样式*/
+footer{
+    background: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+ul.share-group{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+ul{
+    list-style: none;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+.copy{
+    padding-bottom: 20px;
+}
